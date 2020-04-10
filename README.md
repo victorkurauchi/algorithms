@@ -9,5 +9,5 @@
   <img alt="NodeJS Version" src="https://img.shields.io/node/v/carbon.svg?style=for-the-badge">
 </p>
 <p align="center">
-  Efficient HackerRank solutions in JavaScript
+  Solving  HackerRank problems in a readable and efficient way with JavaScript
 </p>
