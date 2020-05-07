@@ -9,17 +9,12 @@ function beautifulDays(i, j, k) {
     let reversed = i.toString().split("").reverse().join("");
     let diff;
     
-    // console.log('i', i);
-    // console.log('rev', reversed);
-
     if (i > reversed) {
       diff = i - Number(reversed)
     } else {
       diff = Number(reversed) - i;
     }
 
-    // let diff = Math.abs(Number(reversed), i);
-    // console.log(diff, (diff % k))
     let isBeautifulDay = (diff % k == 0);
     if (isBeautifulDay) {
       beautiful.push(i);
